@@ -24,7 +24,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Mobile Dark](./screenshots/mobile-dark.png)
+![Desktop Dark](./screenshots/desktop-dark.png)
 
 ### Links
 
@@ -43,6 +44,4 @@ Users should be able to:
 
 ## Author
 
--   Website - [Add your name here](https://www.your-site.com)
--   Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
--   Twitter - [@yourusername](https://www.twitter.com/yourusername)
+-   Frontend Mentor - [@bLu.Я](https://www.frontendmentor.io/profile/blu-R)
