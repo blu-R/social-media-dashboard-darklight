@@ -9,7 +9,7 @@
     --border-color-instagram-2: hsl(329, 70%, 58%);
     --border-color-youTube: hsl(348, 97%, 39%);
 
-    /* ---- Dark Theme --- */
+    /* ---- Dark Theme default--- */
 
     --bg-color: hsl(230, 17%, 14%);
     --bg-color-top: hsl(232, 19%, 15%);
@@ -18,8 +18,23 @@
     --text-color-blue: hsl(228, 34%, 66%);
     --text-color-white: hsl(0, 0%, 100%);
 
+    --toggle-label: hsl(228, 34%, 66%);
     --toggle-color-bg-1: hsl(210, 78%, 56%);
     --toggle-color-bg-2: hsl(146, 68%, 55%);
+    --toggle-color-bg: hsl(0, 0%, 100%);
+    --toggle-color-bg-base: hsl(230, 22%, 74%);
+}
+/* --- LIGTHT THEME --- */
+[data-theme="light"] {
+    --bg-color: hsl(0, 0%, 100%);
+    --bg-color-top: hsl(225, 100%, 98%);
+    --bg-color-card: hsl(227, 47%, 96%);
+    --bg-color-card-hover: hsl(227, 47%, 92%);
+    --text-color-blue: hsl(228, 12%, 44%);
+    --text-color-white: hsl(230, 17%, 14%);
+
+    --toggle-label: hsl(230, 22%, 74%);
+    --toggle-color-bg: hsl(230, 22%, 74%);
 }
 
 /* --- RESET --- */
@@ -82,24 +97,38 @@ img {
 .darklight__label {
     font-size: 1rem;
     font-weight: 600;
+    order: -1;
+    transition: 0.4s;
+    color: var(--toggle-label);
 }
 .toggle {
     width: 48px;
     aspect-ratio: 2;
     border-radius: 15px;
+    background-color: var(--toggle-color-bg-base);
     padding: 3px;
+    cursor: pointer;
+}
+.toggle-bg-gradient {
     background-image: linear-gradient(
         to right,
         var(--toggle-color-bg-1),
         var(--toggle-color-bg-2)
     );
-    cursor: pointer;
 }
+.toggle:hover + .darklight__label {
+    color: var(--toggle-color-bg);
+}
+
 .toggle__circle {
     height: 100%;
     aspect-ratio: 1;
     border-radius: 50%;
     background-color: var(--bg-color-card);
+    transition: 0.4s;
+}
+.toggle__circle-on {
+    transform: translateX(24px);
 }
 
 /* --- MAIN --- */

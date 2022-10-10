@@ -26,11 +26,13 @@ Users should be able to:
 
 ![Mobile Dark](./screenshots/mobile-dark.png)
 ![Desktop Dark](./screenshots/desktop-dark.png)
+![Mobile Light](./screenshots/mobile-light.png)
+![Desktop Light](./screenshots/desktop-light.png)
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Solution URL: [https://github.com/blu-R/social-media-dashboard-darklight](https://github.com/blu-R/social-media-dashboard-darklight)
+-   Live Site URL: [https://social-media-dashboard-darklight-blur.netlify.app/](https://social-media-dashboard-darklight-blur.netlify.app)
 
 ## My process
 
@@ -40,6 +42,7 @@ Users should be able to:
 -   CSS custom properties
 -   Flexbox
 -   CSS Grid
+-   JS
 -   Mobile-first workflow
 
 ## Author
